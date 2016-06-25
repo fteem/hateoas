@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.0'
 # Use AMS
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'annotate'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
