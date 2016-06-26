@@ -14,4 +14,8 @@ class ArticleSerializer < ApplicationSerializer
   attributes :id, :title, :body
   belongs_to :author
   type :article
+
+  link :self do
+    href author_article_path(object.author.id, object.id)
+  end
 end
