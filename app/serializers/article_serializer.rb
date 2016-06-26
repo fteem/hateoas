@@ -13,4 +13,5 @@
 class ArticleSerializer < ApplicationSerializer
   attributes :id, :title, :body
   belongs_to :author
+  type :article
 end
