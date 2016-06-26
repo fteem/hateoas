@@ -10,7 +10,7 @@
 #
 
 class AuthorSerializer < ApplicationSerializer
-  attributes :id, :first_name, :last_name
+  attributes :id, :first_name, :last_name, :created_at, :updated_at
   has_many :articles
   type :author
 
