@@ -9,6 +9,6 @@
 #  updated_at :datetime         not null
 #
 
-class AuthorSerializer < ActiveModel::Serializer
+class AuthorSerializer < ApplicationSerializer
   attributes :id, :first_name, :last_name
 end
