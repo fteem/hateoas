@@ -10,7 +10,7 @@
 #  updated_at :datetime         not null
 #
 
-class ArticleSerializer < ApplicationSerializer
+class ArticleSerializer < ActiveModel::Serializer
   attributes :id, :title, :body, :created_at, :updated_at
   belongs_to :author
   type :article
